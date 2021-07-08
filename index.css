@@ -1,0 +1,37 @@
+body{
+    background-color: #f0f7f8;
+    font-family: 'Mukta', sans-serif;
+}
+
+.nav-list{
+    background: white;
+    box-shadow: -5px 2px 25px 18px rgba(0,0,0,0.75);
+    margin: 0;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item a:hover{
+    background: gray;
+}
+
+.nav-item:first-child{
+    margin-right: auto;
+    margin-left: 2rem;
+}
+
+.logo{
+    width: 110px;
+}
